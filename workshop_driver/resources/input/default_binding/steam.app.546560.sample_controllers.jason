@@ -1,0 +1,8 @@
+{
+  "default_bindings": [
+    {
+      "app_key": "steam.app.546560",
+      "binding_url": "default_bindings/steam.app.546560.ample_controllers.json"
+    }
+  ]
+}

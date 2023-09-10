@@ -1,0 +1,168 @@
+{
+  "bindings": {
+    "/actions/legacy": {
+      "haptics": [
+        {
+          "output": "/actions/legacy_mirrored/out/haptic",
+          "path": "/user/hand/left/output/haptic"
+        },
+        {
+          "output": "/actions/legacy_mirrored/out/haptic",
+          "path": "/user/hand/right/output/haptic"
+        }
+      ],
+      "poses": [
+        {
+          "output": "/actions/legacy_mirrored/in/pose",
+          "path": "/user/hand/left/pose/raw"
+        },
+        {
+          "output": "/actions/legacy_mirrored/in/pose",
+          "path": "/user/hand/right/pose/raw"
+        }
+      ],
+      "sources": [
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/axis1_press"
+            },
+            "pull": {
+              "output": "/actions/legacy_mirrored/in/axis1_value"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/axis1_touch"
+            }
+          },
+          "mode": "trigger",
+          "path": "/user/hand/left/input/trigger"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/axis1_press"
+            },
+            "pull": {
+              "output": "/actions/legacy_mirrored/in/axis1_value"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/axis1_touch"
+            }
+          },
+          "mode": "trigger",
+          "path": "/user/hand/right/input/trigger"
+        },
+        {
+          "inputs": {
+            "position": {
+              "output": "/actions/legacy_mirrored/in/axis0_value"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/axis0_touch"
+            }
+          },
+          "mode": "trackpad",
+          "path": "/user/hand/left/input/trackpad"
+        },
+        {
+          "inputs": {
+            "position": {
+              "output": "/actions/legacy_mirrored/in/axis0_value"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/axis0_touch"
+            }
+          },
+          "mode": "trackpad",
+          "path": "/user/hand/right/input/trackpad"
+        },
+        {
+          "inputs": {},
+          "mode": "joystick",
+          "path": "/user/hand/left/input/thumbstick"
+        },
+        {
+          "inputs": {},
+          "mode": "joystick",
+          "path": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/grip_press"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/grip_touch"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/grip_press"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/grip_touch"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/a"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/applicationmenu_press"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/applicationmenu_touch"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/b"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/applicationmenu_press"
+            },
+            "touch": {
+              "output": "/actions/legacy_mirrored/in/applicationmenu_touch"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/b"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/axis0_press"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/left/input/trackpad"
+        },
+        {
+          "inputs": {
+            "click": {
+              "output": "/actions/legacy_mirrored/in/axis0_press"
+            }
+          },
+          "mode": "button",
+          "path": "/user/hand/right/input/trackpad"
+        }
+      ]
+    }
+  },
+  "category": "legacy",
+  "controller_type": "EMG",
+  "description": "Legacy mapping",
+  "name": "Legacy_Binding",
+  "options": {
+    "mirror_actions": false,
+    "returnBindingsWithLeftHand": true,
+    "simulated_controller_type": "none"
+  }
+}
+
